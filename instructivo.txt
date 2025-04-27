@@ -1,0 +1,2 @@
+-cargar primer base de creedenciales desde importador externo a gbq.
+-correr este codigo cambiando env.
