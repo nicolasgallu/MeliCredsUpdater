@@ -1,7 +1,7 @@
 # Use base Python image
 FROM python:3.12-alpine
 
-WORKDIR /code
+WORKDIR /app
 
 ENV PYTHONUNBUFFERED=1
 ENV TZ=America/Argentina/Buenos_Aires
@@ -11,6 +11,6 @@ COPY requirements.txt .
 
 RUN pip install -r requirements.txt
 
-COPY . /code
+COPY . /app
 
-CMD ["python","code/main.py"]
+CMD ["python","app/main.py"]
