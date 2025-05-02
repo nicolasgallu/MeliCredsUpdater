@@ -1,4 +1,7 @@
 import os
+from dotenv import load_dotenv
+# Cargar variables de entorno desde el archivo .env
+load_dotenv()
 
 GBQ_ACCOUNT = {
 'type': os.getenv("type"),
@@ -25,3 +28,5 @@ GBQ_CREDS_SCHEMA = {
 }
 
 
+SENDER_PASSWORD=os.getenv("SENDER_PASSWORD")
+SENDER_EMAIL=os.getenv("SENDER_EMAIL")
