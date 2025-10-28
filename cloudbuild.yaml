@@ -20,5 +20,3 @@ steps:
 
 images:
   - 'us-central1-docker.pkg.dev/nicoservertest/mercadolibre-creds-updater/creds_updater:$COMMIT_SHA'
-
-
