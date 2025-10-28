@@ -5,7 +5,7 @@ from app.utils.logger import logger
 from app.config.config import SENDER_EMAIL,SENDER_PASSWORD
 
 def notify_human(subject, question_text):
-    """Envía un correo con los detalles de la pregunta en formato estructurado."""
+    """"""
     smtp_server = "smtp.gmail.com"
     smtp_port = 587
 
